@@ -11,7 +11,7 @@ protected:
     int health;       // stores the value of health of the gummybears.
     int attack_stat;  // stores the value of attack stat of the gummybears.
     int defense_stat; // stores the value of the defense stat of the gummybears.
-    int speed_stat;   // stores the speed stat of the gummybears.
+    int speed_stat;   // stores the speed stat of the gummybears in the variable
 
 public:
     void SetLevel(int L) // assigns L to level and sets the level.
@@ -64,10 +64,10 @@ public:
         speed_stat = s_s;
     }
 
-    virtual string GetColor() // polymorphism to put color for Opponent and YourBear.
-    {
-        return "Blue";
-    }
+    // virtual string GetColor() // polymorphism to put color for Opponent and YourBear.
+    // {
+    //     return "Blue";
+    // }Not required
 
     GummyBear() // A default constructor for the GummyBear base class
     {
