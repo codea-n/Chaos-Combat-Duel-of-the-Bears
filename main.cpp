@@ -69,7 +69,7 @@ public:
     //     return "Blue";
     // }Not required
 
-    GummyBear() // A default constructor for the GummyBear base class
+    GummyBear() // A default constructor for the GummyBear base class. Uses principles of object oriented programming
     {
         level = 0;
         health = 0;
