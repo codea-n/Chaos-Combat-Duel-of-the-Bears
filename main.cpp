@@ -71,6 +71,7 @@ public:
 
     GummyBear() // A default constructor for the GummyBear base class. Uses principles of object oriented programming
     {
+        //since integer values, using 0 instead of decimal. Also, stats are mostly in integer.
         level = 0;
         health = 0;
         attack_stat = 0;
