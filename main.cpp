@@ -55,13 +55,13 @@ public:
     {
         return speed_stat;
     }
-    GummyBear(int lv, int hl, int a_s, int d_s, int s_s) // overloaded constructor with 5 parameters to set the stats of the GummyBear as predefined.
+    GummyBear(int lv, int hl, int as, int ds, int ss) // overloaded constructor with 5 parameters to set the stats of the GummyBear as predefined.
     {
         level = lv;
         health = hl;
-        attack_stat = a_s;
-        defense_stat = d_s;
-        speed_stat = s_s;
+        attack_stat = as;
+        defense_stat = ds;
+        speed_stat = ss;
     }
 
     // virtual string GetColor() // polymorphism to put color for Opponent and YourBear.
@@ -71,7 +71,7 @@ public:
 
     GummyBear() // A default constructor for the GummyBear base class. Uses principles of object oriented programming
     {
-        //since integer values, using 0 instead of decimal. Also, stats are mostly in integer.
+        // since integer values, using 0 instead of decimal. Also, stats are mostly in integer.
         level = 0;
         health = 0;
         attack_stat = 0;
