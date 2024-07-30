@@ -3,7 +3,7 @@
 #include <fstream>
 
 using namespace std;
-
+//Instead of using camelCase, used underscore(_) for better comprehension.
 class GummyBear
 {
 protected:
