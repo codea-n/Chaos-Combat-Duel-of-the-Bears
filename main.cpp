@@ -84,5 +84,8 @@ public:
 
 class YourBear : public GummyBear
 {
+    private:
 
+    public:
+    
 };
