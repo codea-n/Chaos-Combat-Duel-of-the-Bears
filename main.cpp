@@ -81,3 +81,8 @@ public:
 };
 
 /********************************** Derived class YourBear ************************************************/
+
+class YourBear : public GummyBear
+{
+
+};
