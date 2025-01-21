@@ -14,7 +14,7 @@ protected:
     int speed_stat;   // stores the speed stat of the gummybears in the variable
 
 public:
-    void SetLevel(int L) // assigns L to level and sets the level.
+    void SetLevel(int L) // assigns L to level and sets the level
     {
         level = L;
     }
