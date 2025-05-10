@@ -82,8 +82,42 @@ public:
 
 /********************************** Derived class YourBear ************************************************/
 
-class YourBear : public GummyBear
+class YourBear : public GummyBear 
 {
 private:
+  string yourname;//stores the value of the name of your character from input.
+  string identifier;//stores the value of the unique identifier of the character from input.
+
+
 public:
+  string GetColor()//sets the color of YourBear class to be Green compared to Blue in main
+  {
+    return "Green";
+  }
+  void SetName(string n)//assigns n to yourname and sets the character’s name
+  {
+    yourname = n;
+  }
+  string GetName()//returns the character’s name
+  {
+    return yourname;
+  }
+  void SetIdentifier(string ID)//assigns ID to identifier and sets the unique identifier.
+  {
+    identifier = ID;
+  }
+  string GetID()//returns the unique identifier.
+  {
+    return identifier;
+  }
+  YourBear(int y_lv, int y_hl, int y_as, int y_ds, int y_ss, string y_name, string y_iden) : GummyBear(y_lv, y_hl, y_as, y_ds, y_ss) //overload constructor that inherits the first five values defined in the base class and the string variables from its own.
+  {
+    yourname = y_name;
+    identifier = y_iden;
+  }
+  YourBear()//default constructor 
+  {
+    yourname = "";
+    identifier = "";
+  }
 };
